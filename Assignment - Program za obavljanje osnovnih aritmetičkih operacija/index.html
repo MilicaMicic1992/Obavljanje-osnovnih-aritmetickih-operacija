@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aritmeticke operacije</title>
+</head>
+<body>
+    <script>
+
+        let a = prompt ("Unesite vrednost prvog broja:")       
+        let b = prompt ("Unesite aritmeticku operaciju:")
+        let c = prompt ("Unesite vrednost drugog broja:")
+
+        a = Number(a)
+        c = Number (c)
+    
+        if (b == "+"){
+            alert("Rezultat sabiranja: " + (a+c) + "\n")
+        }else if (b == "-"){
+            alert("Rezultat oduzimanja : " + (a-c) + "\n")
+        }else if (b == "*"){
+            alert("Rezultat mnozenja : " + (a*c) + "\n")
+        }else if (b == "/"){
+            alert("Rezultat deljenja : " + (a/c) + "\n")
+        }else{
+            alert("Unete operacije moraju biti : +, -, *, / .")
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>
